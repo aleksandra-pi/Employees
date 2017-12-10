@@ -1,6 +1,5 @@
 package com.example.Employees.models;
 
-import com.example.Employees.models.forms.EmployeeForm;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -21,10 +20,4 @@ public class EmployeeModel {
     private String email;
     private String position;
 
-    public EmployeeModel (EmployeeForm form){
-        name = form.getName();
-        surname = form.getSurname();
-        email = form.getEmail();
-        position = form.getPosition();
-    }
 }
